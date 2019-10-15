@@ -34,8 +34,8 @@ def upload_file(file_name, bucket, s3, content):
 #     return chunksNames
 
 
-KEY_ID = "AKIATJYDBBGBAKD5IBUD"
-ACCESS_KEY = "BNEWUZ9l282GlsAclIrMnTPSsQu4iHyJCK+BVy9W"
+KEY_ID = ""
+ACCESS_KEY = ""
 bucket = "speedfs"
 
 s3 = boto3.resource(

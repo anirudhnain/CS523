@@ -17,8 +17,8 @@ def readFromS3(s3, key):
 
 start_time = time.time()
 
-KEY_ID = "AKIATJYDBBGBAKD5IBUD"
-ACCESS_KEY = "BNEWUZ9l282GlsAclIrMnTPSsQu4iHyJCK+BVy9W"
+KEY_ID = ""
+ACCESS_KEY = ""
 
 s3 = boto3.resource(
     's3',
